@@ -45,7 +45,7 @@ int main() {
 			if (cl[x] == *";") {
 				std::cout << memoryTape[ipp];
 			}
-			if (cl[x] == *".") {
+			if (cl[x] == *".") { // This is the "broken command" I'm talking about in the README.md file
 				std::cout << (char)memoryTape[ipp];
 			}
 			if (cl[x] == *"/") {
