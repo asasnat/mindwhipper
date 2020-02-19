@@ -1,0 +1,7 @@
+This is a simple example mindwhipper program
+Characters other than the commands are ignored
+++ Adds 2 to the currently accessed memory tape element
+; Prints the value of the currently accesed memory tape element
+> Moves the "memory tape pointer" to the next element
+] Adds 10 to the currently accessed memory tape element
+; And finally we print it
