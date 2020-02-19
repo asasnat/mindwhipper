@@ -6,3 +6,7 @@ Currently, running mindwhipper requires you to compile it... but due to the fact
 1. Create a new Visual Studio project.
 2. Right-click on your project (NOT the solution) and click "Open in Explorer". You will be in the project's path.
 3. Copy the main.cpp file onto the main project folder (again, NOT the solution folder), click "Compile" in Visual Studio and boom! you are running mindwhipper on your own computer.
+
+Documentation on mindwhipper:
+-The Memory Tape:
+The memory tape is pretty simple. Imagine it's like an array of values that you can modify and even print onto the console (because that's literally what it is). Command list coming soon! For now, if you need a full list of commands, just DM me on Discord (my name and id is "ButtHat#1658" without quotes) and I might send a list of mindwhipper commands to you.
