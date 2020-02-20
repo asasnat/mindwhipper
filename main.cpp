@@ -1,9 +1,9 @@
 #include <iostream>
 #include <fstream>
 
-
-
 #include <string>
+
+#include <cstdint>
 
 int main() {
 
@@ -45,12 +45,15 @@ int main() {
 			if (cl[x] == *";") {
 				std::cout << memoryTape[ipp];
 			}
-			if (cl[x] == *".") { // This is the "broken command" I'm talking about in the README.md file
-				std::cout << (char)memoryTape[ipp];
+			if (cl[x] == *".") {
+				uint8_t asciicode = memoryTape[ipp];
+				std::cout << (char)asciicode;
 			}
 			if (cl[x] == *"/") {
 				std::cout << std::endl;
 			}
 		}
 	}
+	std::cout << std::endl;
+	system("pause");
 }
