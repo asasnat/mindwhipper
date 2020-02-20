@@ -1,5 +1,6 @@
 Mindwhipper is an open-source esoteric programming language inspired by Brainfrick. Mindwhipper is currently being ran by jannek123.
-Mindwhipper is mostly functional, with the exception of a broken command which was supposed to convert a value in the memory tape into a ASCII character and then print it into the console... you can create a pull request though!
+Mindwhipper is FULLY FUNCTIONAL! Yes, even the command which transforms a number in the memory tape into a ASCII character and then print it onto the console finally works!
+Have an idea? Create a pull request!
 If I see a pull request adds some good stuff and possibly fixes some bugs, I'll "accept" the pull request! Also, before creating a pull request, TEST YOUR PULL REQUEST ON YOUR HARDWARE FIRST.
 Mindwhipper is written in Visual C++, and ONLY uses the standard library, so the source code is pretty lightweight and easily portable without creating a .zip file.
 Currently, running mindwhipper requires you to compile it... but due to the fact that it only uses the standard library, and that it only consists of one source file, it's easy as butter! Trust me.
