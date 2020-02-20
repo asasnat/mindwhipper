@@ -52,6 +52,9 @@ int main() {
 			if (cl[x] == *"/") {
 				std::cout << std::endl;
 			}
+			if (cl[x] == *"'") {
+				memoryTape[ipp] = 0;
+			}
 		}
 	}
 	std::cout << std::endl;
@@ -69,4 +72,5 @@ Mindwhipper Commands:
 ; - prints the currently accesed memory tape slot's value
 . - transforms the currently accesed memory tape slot's value into an ASCII character and then prints it onto the screen
 / - prints a new line
+' - resets the currently accesed memory tape slot to zero
 */
