@@ -57,3 +57,16 @@ int main() {
 	std::cout << std::endl;
 	system("pause");
 }
+
+/*
+Mindwhipper Commands:
+> - moves memory tape pointer to the next slot
+< - moves memory tape pointer to the previous slot
++ - increments the currently accesed memory tape slot
+- - decrements the currently accesed memory tape slot
+] - increments the currently accesed memory tape slot by 10
+[ - decrements the currently accesed memory tape slot by 10
+; - prints the currently accesed memory tape slot's value
+. - transforms the currently accesed memory tape slot's value into an ASCII character and then prints it onto the screen
+/ - prints a new line
+*/
