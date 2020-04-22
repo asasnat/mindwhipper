@@ -1,29 +1,38 @@
+/*
+Mindwhipper
+(c) 2019-2020 jannek123
+Instructions are at the end of this file
+*/
+
+// Include headers \\
 #include <iostream>
 #include <fstream>
-
 #include <string>
-
 #include <cstdint>
 
+// Main function \\
 int main() {
-
+	// Ask for file path and store it in variable filepath \\
 	std::string filepath;
-
 	std::cout << "Enter path to file: ";
-
 	std::cin >> filepath;
 
 	std::string cl;
-
+	
+	// Load file
 	std::ifstream file(filepath);
-
+	
+	// Define memory tape \\
 	int memoryTape[20] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-
+	
+	// Define memory tape pointer \\
 	int ipp = 0;
-
+	
+	// ! This is where the file parsing begins ! \\
 	while (!file.eof()) {
 		std::getline(file, cl);
 		for (int x=0;x<=cl.size();x++) {
+			// Read current character and do a specific instruction based on what the character is \\
 			if (cl[x] == *">") {
 				ipp++;
 			}
@@ -57,8 +66,13 @@ int main() {
 			}
 		}
 	}
+	
+	// Print out a new line and pause \\
 	std::cout << std::endl;
 	system("pause");
+	
+	// End of program \\
+	return 0;
 }
 
 /*
