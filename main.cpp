@@ -1,6 +1,6 @@
 /*
 Mindwhipper
-(c) 2019-2020 jannek123
+(c) 2019-2020 StupidButSmartProgrammer
 Instructions are at the end of this file
 */
 
