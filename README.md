@@ -20,3 +20,8 @@ It's simple. You run the .exe. You are prompted to type in the FULL PATH of the 
 -The Memory Tape:  
 The memory tape is pretty simple. Imagine it as an array of values that you can modify and even print onto the console (because that's literally what it is). The memory tape is 20 elements in size.  
 -Command list is at the end of the main.cpp file!  
+
+! ATTENTION !  
+I've taken a break from working on this project, so expect little to no updates for now.  
+I always wanted to implement the `[` and `]` functions, effectively allowing loops and comment blocks in a similar fashion to Brainfrick (keeping it family friendly!), but for whatever reason I didn't.  
+I'm very sorry, and I hope I will get out of this habit.
