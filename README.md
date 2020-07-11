@@ -1,4 +1,4 @@
-Mindwhipper is an open-source esoteric programming language inspired by Brainfrick. Mindwhipper is currently being ran by StupidButSmartProgrammer 
+Mindwhipper is an open-source esoteric programming language inspired by Brainfrick. Mindwhipper is currently being ran by StupidButSmartProgrammer.  
 Have an idea? Create a pull request!  
 If I see a pull request adds some good stuff and possibly fixes some bugs, I'll "accept" the pull request! Also, before creating a pull request, TEST YOUR PULL REQUEST ON YOUR HARDWARE FIRST.
 
