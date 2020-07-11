@@ -1,5 +1,4 @@
-Mindwhipper is an open-source esoteric programming language inspired by Brainfrick. Mindwhipper is currently being ran by jannek123.  
-Mindwhipper is FULLY FUNCTIONAL! Yes, even the command which transforms a number in the memory tape into a ASCII character and then print it onto the console finally works!  
+Mindwhipper is an open-source esoteric programming language inspired by Brainfrick. Mindwhipper is currently being ran by StupidButSmartProgrammer 
 Have an idea? Create a pull request!  
 If I see a pull request adds some good stuff and possibly fixes some bugs, I'll "accept" the pull request! Also, before creating a pull request, TEST YOUR PULL REQUEST ON YOUR HARDWARE FIRST.
 
