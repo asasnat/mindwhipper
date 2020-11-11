@@ -21,7 +21,6 @@ The memory tape is pretty simple. Imagine it as an array of values that you can 
 -Command list is at the end of the main.cpp file!  
 
 ! ATTENTION !  
-I've taken a break from working on this project, so expect little to no updates for now.  
-I always wanted to implement the `[` and `]` functions, effectively allowing loops and comment blocks in a similar fashion to Brainfrick (keeping it family friendly!), but for whatever reason I didn't.  
-I'm very sorry, and I hope I will get out of this habit.  
-Anyway, in the meantime, feel free to do some pull requests, but not too much - I don't like when people babysit me by implementing everything by themselves, thus not letting me put something into the code!
+After a lot of time I've decided that this project is discontinued.
+It's of no value, and isn't even a proper programming language.
+So anyway, I'll archive the repo so that you all can see the (very awful) code for yourselves.
